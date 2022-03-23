@@ -3,7 +3,8 @@
 
 ```
 module "vpc" {
-    source = ""
+    source = "rabia1984/vpc1/aws"
+    cidr_block = "10.0.0.0/16"
 }
 
 ```
